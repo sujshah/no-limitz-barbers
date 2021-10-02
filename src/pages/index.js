@@ -1,38 +1,32 @@
 import * as React from 'react'
 
+const backgroundStyles = {
+  backgroundColor: "#212121",
+}
+
+const pageStyles = {
+  color: "#FFFFFF",
+  fontFamily: "Stencil Std",
+  textAlign: "center",
+  maxWidth: "none ",
+  transition: "none",
+  margin: "none",
+  padding: "560px",
+  border: "none",
+  fontSize: "26px",
+}
+
 const IndexPage = () => {
   return (
-    <main>
+    <body style={backgroundStyles}>
+    <main style={pageStyles}>
       <title>
         Home Page
       </title>
-      <h1>No Limitz Barbers</h1>
-      <section>
-        <h2>
-          Main Content
-        </h2>
-      </section>
-      <section>
-        <h2>
-          Pricing
-        </h2>
-      </section>
-      <section>
-        <h2>
-          Opening Hours
-        </h2>
-      </section>
-      <section>
-        <h2>
-          Social Media
-        </h2>
-      </section>
-      <section>
-        <h2>
-          Maps
-        </h2>
-      </section>
+      <h1>NO LIMITZ BARBERS</h1>
     </main>
+    </body>
+    
   )
 }
 
