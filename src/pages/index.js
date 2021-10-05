@@ -38,6 +38,15 @@ const IndexPage = () => {
     <section style={pricingStyles}>
       <h1>PRICING</h1>
     </section>
+    <section style={pageStyles}>
+      <h1>OPENING HOURS</h1>
+    </section>
+    <section style={pricingStyles}>
+      <h1>SOCIAL MEDIA</h1>
+    </section>
+    <section style={pageStyles}>
+      <h1>MAPS</h1>
+    </section>
     </body>
   )
 }
