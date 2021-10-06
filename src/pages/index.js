@@ -28,11 +28,14 @@ const pricingStyles = {
 
 const IndexPage = () => {
   return (
-    <body>
-    <main style={pageStyles}>
+    <html>
+    <head>
       <title>
         Home Page
       </title>
+    </head>
+    <body>
+    <main style={pageStyles}>
       <h1>NO LIMITZ BARBERS</h1>
     </main>
     <section style={pricingStyles}>
@@ -48,6 +51,7 @@ const IndexPage = () => {
       <h1>MAPS</h1>
     </section>
     </body>
+    </html>
   )
 }
 
