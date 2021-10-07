@@ -51,6 +51,9 @@ const IndexPage = () => {
       <h1>MAPS</h1>
     </section>
     </body>
+    <footer>
+      Suraj Shah
+    </footer>
     </html>
   )
 }
