@@ -28,7 +28,7 @@ const pricingStyles = {
 
 const IndexPage = () => {
   return (
-    <html>
+    <html lang="en">
     <head>
       <title>
         Home Page
