@@ -1,4 +1,5 @@
-import * as React from 'react'
+import * as React from 'react';
+import '../fonts/index.css';
 
 const pageStyles = {
   color: "#FFFFFF",
@@ -32,6 +33,10 @@ const imgStyles = {
   objectFit: "cover",
 }
 
+const titleStyles = {
+  fontFamily: "Aftershock",
+}
+
 const IndexPage = () => {
   return (
     <html lang="en">
@@ -44,8 +49,8 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <h1><img style={imgStyles} src="https://fontmeme.com/permalink/211010/f0cb3d7a35da93e6a3ea024a6996c7a3.png" alt="graffiti-creator" border="0"></img></h1>
     </main>
-    <section style={pricingStyles}>
-      <h1>PRICING</h1>
+    <section>
+      <h1 style={titleStyles}>PRICING</h1>
     </section>
     <section style={pageStyles}>
       <h1>OPENING HOURS</h1>
