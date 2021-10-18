@@ -2,3 +2,8 @@
     font-family: 'Aftershock';
     src: url(./Lato/Aftershock.ttf);
   }
+
+@font-face {
+  font-family: 'Urban Jungle';
+  src: url(./Lato/UrbanJungle.otf);
+}

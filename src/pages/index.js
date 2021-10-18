@@ -34,7 +34,8 @@ const imgStyles = {
 }
 
 const titleStyles = {
-  fontFamily: "Aftershock",
+  fontFamily: "Urban Jungle",
+  fontSize: "180px",
 }
 
 const IndexPage = () => {
@@ -47,7 +48,7 @@ const IndexPage = () => {
     </head>
     <body>
     <main style={pageStyles}>
-      <h1><img style={imgStyles} src="https://fontmeme.com/permalink/211010/f0cb3d7a35da93e6a3ea024a6996c7a3.png" alt="graffiti-creator" border="0"></img></h1>
+      <h1 style={titleStyles}>No Limitz Barbers</h1>
     </main>
     <section>
       <h1 style={titleStyles}>PRICING</h1>
