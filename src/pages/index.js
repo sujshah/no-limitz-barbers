@@ -52,6 +52,16 @@ const IndexPage = () => {
     </main>
     <section>
       <h1 style={titleStyles}>PRICING</h1>
+      <ul>
+        <li>Mens Wash & Cut</li>
+        <li>Wash & Cut (Longer Hair)</li>
+        <li>Skin Fade with Clippers on top</li>
+        <li>All-Over Clipper Cut</li>
+        <li>Restyle</li>
+        <li>Back & Sides</li>
+        <li>Beard Trim</li>
+        <li>Boys Haircut (up to 12 years)</li>
+      </ul>
     </section>
     <section style={pageStyles}>
       <h1>OPENING HOURS</h1>
