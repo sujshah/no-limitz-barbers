@@ -7,3 +7,28 @@
   font-family: 'Urban Jungle';
   src: url(./Lato/UrbanJungle.otf);
 }
+
+.line{
+  width: 112px;
+  height: 47px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  position: absolute;
+  }
+
+span:before {
+  display: block;
+  float: right;
+  margin-top: .8em; /* half the line-height */
+  border-top: 2px solid silver;
+  width: 50%;
+}
+
+span {
+  margin: 20px;
+  overflow :hidden;
+  color: gray;
+  text-align: left;
+  line-height: 1.6em;
+}
+ 
+ 

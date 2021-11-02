@@ -2,7 +2,6 @@ import * as React from 'react';
 import '../fonts/index.css';
 
 const pageStyles = {
-  color: "#FFFFFF",
   fontFamily: "Stencil Std",
   textAlign: "center",
   maxWidth: "none ",
@@ -11,11 +10,11 @@ const pageStyles = {
   padding: "560px",
   border: "none",
   fontSize: "40px",
-  backgroundColor: "#212121",
+  backgroundColor: "#FFF",
 }
 
 const pricingStyles = {
-  color: "#FFFFFF",
+  color: "#000",
   fontFamily: "Stencil Std",
   textAlign: "center",
   maxWidth: "none ",
@@ -24,7 +23,7 @@ const pricingStyles = {
   padding: "560px",
   border: "none",
   fontSize: "26px",
-  backgroundColor: "#212121",
+  backgroundColor: "#000",
 }
 
 const imgStyles = {
@@ -36,6 +35,13 @@ const imgStyles = {
 const titleStyles = {
   fontFamily: "Urban Jungle",
   fontSize: "180px",
+  color: "#000",
+}
+
+const pricingListStyles = {
+  textAlign: "center",
+  fontSize: "16px",
+  padding: "60px",
 }
 
 const IndexPage = () => {
@@ -50,23 +56,18 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <h1 style={titleStyles}>No Limitz Barbers</h1>
     </main>
-    <section>
-      <h1 style={titleStyles}>PRICING</h1>
-      <ul>
-        <li>Mens Wash & Cut</li>
-        <li>Wash & Cut (Longer Hair)</li>
-        <li>Skin Fade with Clippers on top</li>
-        <li>All-Over Clipper Cut</li>
-        <li>Restyle</li>
-        <li>Back & Sides</li>
-        <li>Beard Trim</li>
-        <li>Boys Haircut (up to 12 years)</li>
-      </ul>
+    <section style={pageStyles}>
+      <h1>PRICING</h1>      
+      <span style={pricingListStyles}><h2>TEST&nbsp;&nbsp;&nbsp;&nbsp;---------------------------------------------------------------</h2></span>
+      <span style={pricingListStyles}><h2>TEST&nbsp;&nbsp;&nbsp;&nbsp;---------------------------------------------------------------</h2></span>
+      <span style={pricingListStyles}><h2>TEST&nbsp;&nbsp;&nbsp;&nbsp;---------------------------------------------------------------</h2></span>
+      <span style={pricingListStyles}><h2>TEST&nbsp;&nbsp;&nbsp;&nbsp;---------------------------------------------------------------</h2></span>
+      <span style={pricingListStyles}><h2>TEST&nbsp;&nbsp;&nbsp;&nbsp;---------------------------------------------------------------</h2></span>
     </section>
     <section style={pageStyles}>
       <h1>OPENING HOURS</h1>
     </section>
-    <section style={pricingStyles}>
+    <section style={pageStyles}>
       <h1>SOCIAL MEDIA</h1>
     </section>
     <section style={pageStyles}>
